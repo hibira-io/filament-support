@@ -1,0 +1,71 @@
+{
+    "name": "hibira-io/filament-support",
+    "description": "AI live chat support for Filament: a chat widget for your website, answered first by AI with your own API key and handed to your team in a live Filament inbox, on Hibira",
+    "keywords": [
+        "filament",
+        "filamentphp",
+        "laravel",
+        "live-chat",
+        "customer-support",
+        "helpdesk",
+        "ai",
+        "chatbot",
+        "openai",
+        "anthropic",
+        "realtime",
+        "hibira"
+    ],
+    "homepage": "https://hibira.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hibira",
+            "homepage": "https://hibira.io"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hibira-io/filament-support/issues",
+        "docs": "https://github.com/hibira-io/filament-support#readme",
+        "email": "support@hibira.io"
+    },
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0|^4.0|^5.0",
+        "hibira-io/filament": "^0.2",
+        "hibira-io/laravel": "^0.1",
+        "pusher/pusher-php-server": "^7.2"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hibira\\FilamentSupport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hibira\\FilamentSupport\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hibira\\FilamentSupport\\SupportServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
