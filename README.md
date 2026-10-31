@@ -32,6 +32,16 @@ answer from a live inbox in your Filament panel.
 Supports Filament 3, 4 and 5. Conversations are stored in your own database;
 Hibira only delivers them live.
 
+## Screenshots
+
+The chat on your website: the AI answers, then hands a refund question to your team.
+
+![Chat widget on a website](art/widget.jpg)
+
+The support inbox in your Filament panel, live.
+
+![Support inbox in a Filament panel](art/inbox.jpg)
+
 ## Install
 
 ```sh
