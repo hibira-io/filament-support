@@ -1,6 +1,6 @@
 # hibira-io/filament-support
 
-![AI live chat support for Filament](art/cover.jpg)
+<img src="art/cover.jpg" alt="AI live chat support for Filament" class="filament-hidden">
 
 [![ci](https://github.com/hibira-io/filament-support/actions/workflows/ci.yml/badge.svg)](https://github.com/hibira-io/filament-support/actions/workflows/ci.yml)
 
