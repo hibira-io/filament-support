@@ -1,6 +1,6 @@
 {
     "name": "hibira-io/filament-support",
-    "description": "AI live chat support for Filament: a chat widget for your website, answered first by AI with your own API key and handed to your team in a live Filament inbox, on Hibira",
+    "description": "Live chat support for Filament: a chat widget for your website and a live inbox in your Filament panel for your team, with optional first answers from your own AI key, on Hibira",
     "keywords": [
         "filament",
         "filamentphp",
