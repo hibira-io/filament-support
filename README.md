@@ -1,10 +1,10 @@
 # hibira-io/filament-support
 
-<img src="art/cover.jpg" alt="AI live chat support for Filament" class="filament-hidden">
+<img src="art/cover.jpg" alt="Live chat support for Filament" class="filament-hidden">
 
 [![ci](https://github.com/hibira-io/filament-support/actions/workflows/ci.yml/badge.svg)](https://github.com/hibira-io/filament-support/actions/workflows/ci.yml)
 
-AI live chat support for [Filament](https://filamentphp.com), on
+Live chat support for [Filament](https://filamentphp.com), on
 [Hibira](https://hibira.io).
 
 Put a chat on your website with one script tag. An AI answers visitors
